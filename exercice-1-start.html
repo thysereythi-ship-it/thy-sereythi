@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background: green;
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        padding-left: 10em;
+        padding-right: 10em;
+        height: 100vh;
+      }
+
+      .container {
+        display: flex;
+        flex-direction: column;
+        background: grey;
+        flex-grow: 1;
+        height: 100%;
+        gap: 1em;
+      }
+
+      header,
+      footer {
+        background: red;
+        height: 100px;
+        text-align: center;
+        line-height: 100px;
+        font-weight: bold;
+      }
+
+      main {
+        background: red;
+        flex-grow: 1;
+        text-align: center;
+        font-weight: bold;
+        line-height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>Header</header>
+      <main>Main</main>
+      <footer>Footer</footer>
+    </div>
+  </body>
+</html>

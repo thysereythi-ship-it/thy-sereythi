@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        padding-left: 3em;
+        padding-right: 3em;
+        background: #25384B;
+      }
+
+      .main {
+        display: flex;
+        flex-direction: row;
+        flex-grow: 1;
+        background: #a9cfa3;
+        gap: 3em;
+        padding: 1em;
+      }
+
+      .left-section {
+        background: #25384B;
+        flex-grow: 1;
+      }
+
+      .right-section {
+        background: #b6c0f7;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        padding: 1em;
+      }
+
+      .item {
+        background: #86C2DE;
+        height: 100px;
+        flex-grow: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <section class="left-section"></section>
+      <section class="right-section">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+      </section>
+    </div>
+  </body>
+</html>
